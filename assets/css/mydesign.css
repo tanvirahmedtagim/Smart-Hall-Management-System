@@ -1,0 +1,69 @@
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #000000;
+    color: #ffffff
+}
+
+#heading {
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: normal;
+    font-family: Century Gothic
+}
+
+.line {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    height: 4px;
+    width: 100px;
+    margin-top: 5px
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%)
+}
+
+@media (max-width: 768px) {
+    .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 0;
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.gap {
+    height: 130px
+}
+
+@media (max-width: 768px) {
+    .gap {
+        height: 0
+    }
+}
+
+.myimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+
+
+.image-name {
+    font-weight: bold
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
